@@ -1,0 +1,74 @@
+.presentacion{
+    height: 789px;
+    background-color: #192130;
+    font-family: "Poppins";
+    font-weight: 700;
+    color: #EEEEEE;
+    padding: 0px 45px 0 45px;
+    display: flex;
+    align-items: center;
+}
+@media(min-width: 999px){
+    .presentacion{
+        display: flex;
+        justify-content: space-around;
+        height: 935px;
+    }
+}
+
+@media(min-width: 999px){
+    .presentacion__div{
+        display:flex;
+    }
+}
+
+@media(min-width: 999px){
+    .presentacion__contenido{
+        max-width: 389px;
+        margin: 0;
+    }
+}
+
+
+.presentacion__soy-fran{
+    margin-top: 71px;
+    height: 55px;
+    font-size: 42px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.presentacion__texto{
+    font-weight: 400;
+    margin-top: 29px;
+}
+@media(min-width: 999px){
+    .presentacion__texto{
+        margin: 0;
+        text-align: center;
+    }
+}
+
+.presentacion__imagen{
+    display: flex;
+    justify-content: center;
+}
+@media(min-width: 999px){
+    .presentacion__imagen{
+        margin-left: 100px;
+        width: 600px;
+
+    }
+}
+
+.presentacion__img{
+    margin-top: 100px;
+}
+@media(min-width: 999px){
+    .presentacion__img{
+        height: 415px;
+        margin: 0;
+        padding: 0;
+    }
+}

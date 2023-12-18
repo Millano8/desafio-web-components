@@ -1,0 +1,111 @@
+.footer{
+    background-color:#0F1113;
+    height: 534px;
+    width: 100%;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(min-width: 999px){
+    .footer{
+        height: 450px;
+    }
+}
+
+@media(min-width: 999px){
+    .footer__links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.footer__tu-logo{
+    margin: 0;
+    font-family: "Oswald";
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 38px;
+    padding-top: 79px;
+    height: 36px;
+    text-align: center;
+}
+
+.footer__link-home{
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-bottom: 10px;
+    height: 47px;
+    font-size: 18px;
+    color: #EEEEEE;
+    text-align: center;
+}
+@media(min-width: 999px){
+    .footer__link-home{
+        margin-right: 30px;
+    }
+}
+
+.footer__link-servicios{
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-bottom: 10px;
+    height: 47px;
+    font-size: 18px;
+    color: #EEEEEE;
+    text-align: center;
+}
+@media(min-width: 999px){
+    .footer__link-servicios{
+        margin-right: 30px;
+    }
+}
+
+.footer_link-contacto{
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-bottom: 40px;
+    height: 47px;
+    font-size: 18px;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.formulario__link-texto{
+    color: #EEEEEE; 
+}
+
+.footer__links-redes{
+    display: inline;
+    align-items: center;
+}
+@media(min-width: 999px){
+    .footer__links-redes{
+        justify-content: center;
+        margin-left: 80px;
+    }
+}
+
+.footer__link-linkedin{
+    margin-right: 25px;;
+}
+
+.footer__link-github{
+    margin-right: 25px;
+}
+
+.footer__link-apx{
+    margin-top: 40px;
+    color:#EEEEEE;
+    height: 27px;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__link-apx-color{
+    color: #EEEEEE;
+
+}

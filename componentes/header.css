@@ -1,0 +1,109 @@
+.header{
+    max-height: 120px;
+    width: 100%;
+    margin: 0;
+    background-color: #13171C;
+    font-family: "Poppins";
+    font-weight: 700;
+    color: #EEEEEE;
+}
+
+.header__cont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding:20px;
+}
+
+.logo-expandido{
+    display:none;
+}
+@media(min-width:769px){
+    .logo-expandido{
+        display: flex;
+    }
+}
+
+.menu__link{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.ventana{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    display: none;
+}
+
+.header__tu-logo{
+    height: 40px;
+    width: 40px;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    margin-left: 24px;
+}
+
+.abre-ventana{
+    border:none;
+    margin:0;
+    background-color: #13171c;
+    display:flex;
+    justify-content: center;
+}
+@media(min-width: 769px){
+    .abre-ventana{
+        display: none;
+    }
+}
+
+.header__burger-logo{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.ventana__cierra-ventana{
+    position:absolute;
+    top: 35px;
+    right: 20px;
+    background-color: #000000;
+    border:none;
+}
+
+.ventana__cierra-ventana-img{
+    width: 40px;
+    height: 40px;
+}
+
+.ventana__contenido{
+    margin: 0;
+    display: grid;
+    gap: 40px;
+    margin-top: 150px;
+    margin-left : 35%;
+}
+
+.ventana__link{
+    text-decoration: none;
+}
+
+
+.ventana__texto{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 42px;
+    color: #EEEEEE;
+    margin: 0;
+    text-align: center;
+}
